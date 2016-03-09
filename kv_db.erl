@@ -5,8 +5,10 @@
 -type err() :: {'error', string()}.
 
 -export_type([db/0, results/0, err/0]).
+-export([new/0]).
 
-% -spec new() -> db().
+-spec new() -> db().
+new() -> [].
 
 % -spec put(Key::atom(), Value::term(), Db::db()) -> results() | err().
 

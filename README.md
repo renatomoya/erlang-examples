@@ -10,4 +10,4 @@ This is a repository of Erlang examples I use in tutorials I write and publish.
 
 ### gen_server
 
-Coming soon.
+- [Getting started with gen_server](https://medium.com/@renatomoya/getting-started-with-gen-server-60015aaca65e#.13oscaf9g)

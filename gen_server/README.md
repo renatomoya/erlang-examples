@@ -2,7 +2,7 @@
 
 ## Example 1: Key-Value In-Memory database
 
-This example wraps a key-value in-memory database module (`kv_db`) in a `gen_server` module (`kv_db_server`) and provides a public interface so you can interact with the database state.
+This example wraps a in-memory key-value database module (`kv_db`) in a `gen_server` module (`kv_db_server`) and provides a public interface so you can interact with the database state.
 
 ```
 $ cd gen_server/kv_db_server && erl

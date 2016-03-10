@@ -13,7 +13,7 @@ Eshell V7.2.1  (abort with ^G)
 {ok,kv_db}
 2> c(kv_db_server).
 {ok,kv_db_server}
-3> kv_db_server:start_link().
+3> kv_db_server:start().
 {ok,<0.45.0>}
 4> kv_db_server:put(color, "red").
 [{color,"red"}]

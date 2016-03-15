@@ -6,4 +6,4 @@ This example shows how to write unit tests for a fairly simple in-memory key-val
 
 ## Part 2
 
-This example shows how to write unit tests using test generators. This example was used in [Getting started with EUnit (Part 2)](https://medium.com/@renatomoya/getting-started-with-eunit-part-2-3f4619dcafc8#.auk4wwrxw).
+This example shows how to re-write the previous unit tests written in Part 1 but using test generators. This example was used in [Getting started with EUnit (Part 2)](https://medium.com/@renatomoya/getting-started-with-eunit-part-2-3f4619dcafc8#.auk4wwrxw).

@@ -10,7 +10,7 @@
 -spec new() -> db().
 new() -> [].
 
--spec put(Key::atom(), Value::term(), Db::db()) -> results() | err().
+-spec put(Key::atom(), Value::term(), Db::db()) -> results().
 put(Key, Value, []) when is_atom(Key) ->
   [{Key, Value}];
 put(Key, Value, [{Key, _} | Db]) when is_atom(Key) ->
